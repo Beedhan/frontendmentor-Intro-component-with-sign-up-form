@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: url("./images/bg-intro-desktop.png") #ff7a7a;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding: 0 10%;
+}
+
+section {
+  width: 50%;
+}
+
+section.left-section h1 {
+  font-size: 3rem;
+  line-height: 55px;
+}
+
+section.right-section * {
+  padding: 20px 25px;
+  margin: 10px 0;
+  border-radius: 7px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+section.right-section > p {
+  background-color: #6055a5;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+section.right-section > p span {
+  color: #b9b6d3;
+  padding: 0;
+  font-weight: normal;
+}
+
+section.right-section form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  padding: 7%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+section.right-section form input::-webkit-input-placeholder {
+  font-weight: bold;
+}
+
+section.right-section form input:-ms-input-placeholder {
+  font-weight: bold;
+}
+
+section.right-section form input::-ms-input-placeholder {
+  font-weight: bold;
+}
+
+section.right-section form input::placeholder {
+  font-weight: bold;
+}
+
+section.right-section form input {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  border: 1px solid #3e3c49;
+}
+
+section.right-section form input:focus {
+  border: 2px solid #b9b6d3;
+}
+
+section.right-section form button {
+  padding: 20px 50px;
+  background-color: #38cc8c;
+  color: white;
+  font-weight: 500;
+  -webkit-box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+section.right-section form button:hover {
+  cursor: pointer;
+}
+
+section.right-section form p {
+  padding: 0;
+  font-size: 0.8rem;
+  color: #b9b6d3;
+  text-align: center;
+}
+
+section.right-section form p span {
+  font-size: 0.8rem;
+  padding: 0;
+  color: #ff7a7a;
+  font-weight: 700;
+}
+
+section.right-section form p span:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 5%;
+    text-align: center;
+  }
+  section {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  section .right-section {
+    margin-top: 100px;
+  }
+  .right-section > p {
+    font-size: 1.3rem !important;
+    padding: 30px;
+  }
+  .right-section > p span {
+    font-size: 1.3rem !important;
+  }
+  .left-section h1 {
+    font-size: 1.6rem !important;
+    line-height: 35px !important;
+  }
+  button {
+    font-size: 0.8rem !important;
+  }
+}
+/*# sourceMappingURL=index.css.map */
